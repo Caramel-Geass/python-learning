@@ -13,38 +13,6 @@ def compound_interest(money, days, rate=0.042):
 
 
 '''
-# 后一个半月资金变化
-total = 6498.01
-x = []
-y = []
-
-total = compound_interest(total, 1) - 1309.86
-y.append(total)
-x.append(7.21)
-print('7.21\t' + str(total))
-
-total = compound_interest(total, 22) + 750 + 120 * 6
-y.append(total)
-x.append(8.13)
-print('8.13\t' + str(total))
-
-total = compound_interest(total, 5) - 2224 - 245 - 185 - 1000 
-y.append(total)
-x.append(8.21)
-print('8.21\t' + str(total))
-
-total = compound_interest(total, 13) - 1999
-y.append(total)
-x.append(9.04)
-print('9.04\t' + str(total))
-
-plt.plot(x, y)
-plt.axis([7, 9.5, 0, 7000])
-plt.show()
-'''
-
-
-'''
 # 金融爆炸代码段
 year = []
 total = []
@@ -81,7 +49,6 @@ print('Cal done, you should save %s every month' % monthly)
 saved = target - 12 * monthly
 print('You saved %s Yuan.' % saved)
 print()
-
 # 验证
 total = 0
 month = 12
@@ -100,5 +67,3 @@ while month > 0:
 plt.plot(x, y)
 plt.show()
 '''
-
-print(compound_interest(514, 30))
