@@ -1,5 +1,8 @@
+# PyCharm
 .idea/
 
+# Environment
 venv/
 
+# macOS
 *.DS_Store
