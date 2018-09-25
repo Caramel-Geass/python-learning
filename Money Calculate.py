@@ -1,4 +1,4 @@
-from matplotlib import pyplot as plt
+# from matplotlib import pyplot as plt
 
 
 def compound_interest(money, days, rate=0.042):
@@ -28,10 +28,11 @@ while target > 0:
 plt.plot(year, total)
 plt.show()
 print(total)
+'''
 
 # 攒钱计划代码段
 # 计算为1年时间达成储蓄目标，每月需要存钱的多少
-target = 14744
+target = 16000
 total = 0
 monthly = 0
 while total < target:
@@ -64,6 +65,5 @@ while month > 0:
     month = month - 1
     monthNumber = monthNumber + 1
 
-plt.plot(x, y)
-plt.show()
-'''
+# plt.plot(x, y)
+# plt.show()
